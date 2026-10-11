@@ -38,7 +38,7 @@ These findings represent configuration and maintenance concerns, not necessarily
 
 The initial assessment identified 133 packages with available updates.
 
-Following package upgrades, two packages remained eligible for updates.
+Following package upgrades, two updates were deferred due to Ubuntu's phased rollout; their installation was not confirmed.
 
 ### 2. Password Policy Hardening
 
@@ -74,13 +74,13 @@ Verified that Ubuntu's automatic update configuration was enabled.
 
 | Assessment | Before | After |
 |---|---|---|
-| Lynis hardening index | 66/100 | 66/100 |
+| Lynis hardening index | 66/100 | 69/100 |
 | Packages awaiting updates | 133 | 2 |
 | Password-quality module | Not installed | Installed and enabled |
 | UFW firewall | Not installed | Active |
 | Automatic update configuration | Enabled | Enabled |
 
-The unchanged Lynis score demonstrates that individual security improvements do not necessarily increase the overall hardening index.
+The follow-up Lynis audit recorded a hardening index of 69/100, a 3-point improvement from 66/100, with no reported warnings. This does not independently confirm that all vulnerable packages were patched.
 
 ## Evidence
 
