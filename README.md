@@ -1,4 +1,4 @@
-# Linux Security Vulnerability Assessment & Hardening
+# GitHub DevSecOps Lab 1: Linux Security Assessment and Hardening
 
 ## Project Overview
 
