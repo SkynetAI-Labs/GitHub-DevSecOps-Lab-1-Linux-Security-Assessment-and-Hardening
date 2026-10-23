@@ -1,3 +1,4 @@
+
 ![Lab 01 — Linux Security Assessment & Hardening](skynet-lab-01.png)
 
 # GitHub DevSecOps Lab 1: Linux Security Assessment and Hardening
@@ -86,7 +87,30 @@ The follow-up Lynis audit recorded a hardening index of 69/100, a 3-point improv
 
 ## Evidence
 
-The `evidence/` directory contains supporting audit outputs, package information and security configuration records.
+### Security Assessment Report
+
+- [Full Linux Security Vulnerability Assessment Report](VULNERABILITY_REPORT.md)
+
+### Lynis Audit Results
+
+- [Initial Lynis audit](evidence/lynis-before.dat)
+- [Follow-up Lynis audit](evidence/lynis-after.dat)
+
+### Package Management
+
+- [Packages before remediation](evidence/packages-before.txt)
+- [Packages after remediation](evidence/packages-after.txt)
+
+### Authentication and Firewall
+
+- [Password-quality configuration](evidence/password-policy.txt)
+- [UFW firewall status](evidence/firewall-status.txt)
+
+### Network and System Configuration
+
+- [Network-service inspection](evidence/network-services.txt)
+- [OpenSSH Server installation status](evidence/ssh-status.txt)
+- [Automatic-update configuration](evidence/automatic-updates.txt)
 
 Evidence should be reviewed and sanitised before publication to remove sensitive information.
 
