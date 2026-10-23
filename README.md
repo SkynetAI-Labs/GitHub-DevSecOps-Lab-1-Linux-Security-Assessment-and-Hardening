@@ -1,3 +1,5 @@
+![Lab 01 — Linux Security Assessment & Hardening](skynet-lab-01.png)
+
 # GitHub DevSecOps Lab 1: Linux Security Assessment and Hardening
 
 ## Project Overview
