@@ -79,8 +79,8 @@ Verified that Ubuntu's automatic update configuration was enabled.
 |---|---|---|
 | Lynis hardening index | 66/100 | 69/100 |
 | Packages awaiting updates | 133 | 2 |
-| Password-quality module | Not installed | Installed and enabled |
-| UFW firewall | Not installed | Active |
+| Password-quality module | Not recorded as enabled | Installed and enabled |
+| UFW firewall | Initial Lynis audit detected an active firewall; UFW baseline not established | UFW active and configured |
 | Automatic update configuration | Enabled | Enabled |
 
 The follow-up Lynis audit recorded a hardening index of 69/100, a 3-point improvement from 66/100, with no reported warnings. This does not independently confirm that all vulnerable packages were patched.
