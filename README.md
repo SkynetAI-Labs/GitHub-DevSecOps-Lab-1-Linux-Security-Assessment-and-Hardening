@@ -41,7 +41,9 @@ These findings represent configuration and maintenance concerns, not necessarily
 
 The initial assessment identified 133 packages with available updates.
 
-Following package upgrades, two updates were deferred due to Ubuntu's phased rollout; their installation was not confirmed.
+The saved follow-up package listing contains two available updates.
+The published evidence does not establish why those updates remained
+available or confirm their later installation.
 
 ### 2. Password Policy Hardening
 
@@ -113,6 +115,24 @@ The follow-up Lynis audit recorded a hardening index of 69/100, a 3-point improv
 - [Automatic-update configuration](evidence/automatic-updates.txt)
 
 Evidence should be reviewed and sanitised before publication to remove sensitive information.
+
+## Audit and evidence status — 24 October 2026
+
+Repository review confirmed the recorded Lynis 3.1.6 hardening indices:
+66 before and 69 after. The reports record start times of 9 October 2026
+17:34:06 and 10 October 2026 00:00:14; their timezone is not stated.
+The package listings contain 133 and two upgradable entries respectively.
+These are historical observations, not a current assessment of the machine.
+
+The password-policy file records configured values and the follow-up Lynis
+report detects pam_pwquality. End-to-end password-change enforcement was
+not tested in the published evidence. UFW settings were recorded; external
+traffic filtering was not connection-tested. Automatic-update configuration
+does not prove later successful update installation.
+
+No GitHub Actions workflow is present and no workflow runs were returned
+at review time. This lab's evidence consists of saved local assessment
+outputs; no new host scan or system changes were performed during this review.
 
 ## Limitations
 
