@@ -154,3 +154,9 @@ The project does not claim that outdated packages are exploitable without furthe
 ## Skills Demonstrated
 
 Linux Security | Vulnerability Assessment | Security Hardening | Package Management | Firewall Configuration | Authentication Security | Security Documentation | Git
+
+
+## Repository audit — 24 October 2026
+
+See the [dated security audit and prioritised recommendations](SECURITY_AUDIT.md) for the reviewed source commit, verification results, open findings and evidence limitations.
+
